@@ -2,7 +2,7 @@ export default [
     {
         id: 127,
         brand: "Modelo Especial",
-        image: "/images/modelo-especial.jpeg",
+        image: "/products/modelo-especial.jpeg",
         style: "Lager",
         substyle: "Light Lager",
         abv: "4.4%",
@@ -26,7 +26,7 @@ export default [
     {
         id: 374,
         brand: "Miller Lite",
-        image: "/images/miller-lite.png",
+        image: "/products/miller-lite.png",
         style: "Lager",
         substyle: "Light Lager",
         abv: "4.17%",
@@ -46,7 +46,7 @@ export default [
     {
         id: 743,
         brand: "Corona Premier",
-        image: "/images/corona.jpg",
+        image: "/products/corona.jpg",
         style: "Lager",
         substyle: "Mexican Lager",
         abv: "4.0%",
@@ -66,7 +66,7 @@ export default [
     {
         id: 841,
         brand: "Lagunitas IPA",
-        image: "/images/lagunitas.jpg",
+        image: "/products/lagunitas.jpg",
         style: "Ale",
         substyle: "Indian Pale Ale",
         abv: "6.2%",
