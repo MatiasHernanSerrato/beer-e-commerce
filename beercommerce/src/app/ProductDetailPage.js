@@ -1,7 +1,10 @@
-import { useRouter } from 'next/router';
+"use client"
+
+import { useRouter } from 'next/navigation';
 import products from '../data/products';
 
-const ProductDetailPage = ({ product }) => {
+const ProductDetailPage = ({ product, params}) => {
+  console.log(params);
   const router = useRouter();
   debugger
   const { productId, productBrand } = router.query; 
@@ -20,7 +23,7 @@ console.log(productId, productBrand);
       <p>Information: {information}</p>
       <h3>SKUs:</h3>
       <ul>
-        {skus.map((sku) => (
+        {skus?.map((sku) => (
           <li key={sku.code}>
             <p>Code: {sku.code}</p>
             <p>Name: {sku.name}</p>

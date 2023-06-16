@@ -8,7 +8,6 @@ const ProductDetail = ({ product }) => {
   useEffect(() => {
     const fetchStockAndPrice = async () => {
       try {
-        debugger
         const response = await axios.get(`/api/stock-price/${product.sku}`);
         const { stock, price } = response.data;
         setStock(stock);
